@@ -8,6 +8,8 @@ import 'package:stack_overflow/home.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
+    // You can remove the `option` parameter if you haven't used the
+    // Flutter fire CLI to add the app to your Firebase project.
     options: DefaultFirebaseOptions.currentPlatform,
   );
   AuthHelper.init();
