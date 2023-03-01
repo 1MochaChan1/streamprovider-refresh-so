@@ -1,6 +1,9 @@
 # stack_overflow
 
-A new Flutter project.
+This is a demo project for the [StackOverflow answer.](https://stackoverflow.com/questions/71891401/refresh-reset-streamprovider-flutter-firebase/71953349#71953349)
+
+### Note:
+You will have to provide your own google-services.json file for the project to run. (Also firebase-options.dart, if you have connected your app to your Firebase project using FlutterFire CLI)
 
 ## Getting Started
 
